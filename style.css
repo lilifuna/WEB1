@@ -5,14 +5,18 @@ div.title{
 
 nav{
 	 
-	 width:750px;
+	 width:auto;
 	 margin: auto;
+	
 }
 nav ul{
 	list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav li {
@@ -22,6 +26,7 @@ nav li {
 nav li a{
 	display:block;
 	text-align:center;
+	font-size: 25px;
 	width:150px; 
 	text-decoration:none;
 }

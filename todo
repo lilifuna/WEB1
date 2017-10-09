@@ -6,7 +6,7 @@ W całej witrynie powinny znaleźć się:
 ◦ znaki specjalne
 ◦ modyfikacja położenia względem linii bazowej itd.
 2. Grafika:
-◦ umieszczanie na stronie w naturalnych rozmiarach i zmodyfikowanych
+◦ umieszczanie na stronie w naturalnych rozmiarach-TODO i zmodyfikowanych-DONE
 ◦ każda grafika powinna posiadać tekst alternatywny (alt)
 3. Listy (wypunktowania):
 ◦ numerowane 

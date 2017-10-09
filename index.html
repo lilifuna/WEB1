@@ -13,17 +13,53 @@
 
 	<nav>
 		<ul>
+			<li><a href="index.html">Strona główna</a></li>
 			<li><a href="wersje.html">Wersje matiza</a></li>
 			<li><a href="historia.html">Historia marki</a></li>
-			<li><a href="#">menu 3</a></li>
 		</ul>
 	</nav>
 
 
 	<div class="container">
 
+		<h2> Zapisz się do naszego newslettera! </h2>
+		
+		<form id="newsletterForm">
+			Imię:  <br><input type="text" name="firstName"><br>
+			Nazwisko:<br>  <input type="text" name="lastName"><br>
+			Adres email: <br><input type="email" name="email"><br>
+
+			Jakiego typu informacje chcesz otrzymywać? <br>
+			<input type="checkbox" name="newsType" value="zloty"> Zloty<br>
+			<input type="checkbox" name="newsType" value="newModel"> Nowe modele matiza<br>
+
+			Jesteś: <br>
+			<input type="radio" name="gender" value="female"> Kobietą<br>
+			<input type="radio" name="gender" value="male">Mężczyzną<br>
+
+			Jakim typem matiza jeździsz?<br>
+			<select name="model">
+				<optgroup label="FSO">
+					<option>0.8</option>
+					<option>1.0</option>
+				</optgroup>
+				<optgroup label="Daewoo">
+					<option>0.8</option>
+					<option>1.0</option>
+				</optgroup>
+				<optgroup label="Chevrolet">
+					<option>1.0</option>
+					<option>1.2</option>
+				</optgroup>
+			</select><br>
+
+
+			<textarea name="message" form>Zostaw nam wiadomość</textarea><br>
+
+			<input type="submit" value="Wyślij"> <input type="reset" value="Resetuj formularz">
+		</form>
+			
 
 	</div>
-
 
 </body>

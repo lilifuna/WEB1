@@ -13,7 +13,7 @@ W całej witrynie powinny znaleźć się:
  nienumerowane  	DONE
 ◦ zagnieżdżanie list
 4. Tabele:
-◦ wiersze nagłówkowe
+◦ wiersze nagłówkowe DONE
 ◦ różne formatowane
 ◦ zagnieżdżanie
 ◦ łączenie kolumn i wierszy.
@@ -24,10 +24,10 @@ W całej witrynie powinny znaleźć się:
 różnych lokalizacjach
 ◦ wysłanie poczty
 ◦ uaktywniane kliknięciem na obrazek.
-6. Formularz:
-◦ Kilka pól tekstowych (input type=”text”)
-◦ Rozwijaną listę z pogrupowanymi opcjami
-◦ Grupę elementów jednokrotnego wyboru (radio)
-◦ Grupę elementów wielokrotnego wyboru (checkbox)
-◦ Pole tekstowe na wpisanie maksymalnie 200 znaków (text area)
-◦ Przyciski do czyszczenia i wysłania formularza.
+6. Formularz:		DONE
+◦ Kilka pól tekstowych (input type=”text”)  DONE
+◦ Rozwijaną listę z pogrupowanymi opcjami  DONE
+◦ Grupę elementów jednokrotnego wyboru (radio)DONE
+◦ Grupę elementów wielokrotnego wyboru (checkbox)DONE
+◦ Pole tekstowe na wpisanie maksymalnie 200 znaków (text area)DONE
+◦ Przyciski do czyszczenia i wysłania formularza.DONE

@@ -30,3 +30,7 @@ nav li a{
 	width:150px; 
 	text-decoration:none;
 }
+
+div.container.center{
+	text-align: center;
+}

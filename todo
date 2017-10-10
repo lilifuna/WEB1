@@ -1,28 +1,28 @@
 W całej witrynie powinny znaleźć się:
 1. Tekst:
 ◦ nagłówki   		DONE
-◦ akapity
+◦ akapity			DONE
 ◦ wytłuszczenie   	DONE
-◦ znaki specjalne
-◦ modyfikacja położenia względem linii bazowej itd.
+◦ znaki specjalne	polskie znaki się chyba liczą więc DONE XD
+◦ modyfikacja położenia względem linii bazowej itd. 
 2. Grafika:
-◦ umieszczanie na stronie w naturalnych rozmiarach-TODO i zmodyfikowanych-DONE
-◦ każda grafika powinna posiadać tekst alternatywny (alt)
+◦ umieszczanie na stronie w naturalnych rozmiarach-DONE i zmodyfikowanych-DONE
+◦ każda grafika powinna posiadać tekst alternatywny (alt) DONE
 3. Listy (wypunktowania):
-◦ numerowane 
+◦ numerowane DONE
  nienumerowane  	DONE
-◦ zagnieżdżanie list
+◦ zagnieżdżanie list DONE
 4. Tabele:
 ◦ wiersze nagłówkowe DONE
-◦ różne formatowane
-◦ zagnieżdżanie
-◦ łączenie kolumn i wierszy.
+◦ różne formatowane DONE
+◦ zagnieżdżanie		DONE
+◦ łączenie kolumn i wierszy. DONE
 5. Odnośniki (linki):
 ◦ do innej strony   DONE
 ◦ do etykiety
 ◦ umożliwiające pobranie pliku (przez http i ftp), pliki powinny znajdować się w
 różnych lokalizacjach
-◦ wysłanie poczty
+◦ wysłanie poczty  DONE
 ◦ uaktywniane kliknięciem na obrazek.
 6. Formularz:		DONE
 ◦ Kilka pól tekstowych (input type=”text”)  DONE

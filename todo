@@ -4,7 +4,7 @@ W całej witrynie powinny znaleźć się:
 ◦ akapity			DONE
 ◦ wytłuszczenie   	DONE
 ◦ znaki specjalne	polskie znaki się chyba liczą więc DONE XD
-◦ modyfikacja położenia względem linii bazowej itd. 
+◦ modyfikacja położenia względem linii bazowej itd. ???
 2. Grafika:
 ◦ umieszczanie na stronie w naturalnych rozmiarach-DONE i zmodyfikowanych-DONE
 ◦ każda grafika powinna posiadać tekst alternatywny (alt) DONE
@@ -19,11 +19,11 @@ W całej witrynie powinny znaleźć się:
 ◦ łączenie kolumn i wierszy. DONE
 5. Odnośniki (linki):
 ◦ do innej strony   DONE
-◦ do etykiety														KURWA, NIE WIEM GDZIE MY ODNOŚNIK DO ETYKIETY ZROBIMY JAK TA STRONA JEST ZA MAŁA, ZEBY SCROLLOWAĆ XD
+◦ do etykiety DONE
 ◦ umożliwiające pobranie pliku (przez http i ftp), pliki powinny znajdować się w
 różnych lokalizacjach DONE
 ◦ wysłanie poczty  DONE
-◦ uaktywniane kliknięciem na obrazek.
+◦ uaktywniane kliknięciem na obrazek. DONE
 6. Formularz:		DONE
 ◦ Kilka pól tekstowych (input type=”text”)  DONE
 ◦ Rozwijaną listę z pogrupowanymi opcjami  DONE

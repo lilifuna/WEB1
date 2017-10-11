@@ -2,7 +2,6 @@ div.title{
 	text-align: center;
 	font-weight: bold; 
 	font-size: 40px;
-	text-align: top;
 	height: 75px;
 }
 
@@ -23,33 +22,25 @@ div.title{
 	border: 1px solid black;
 }
 
+
 nav{
-	 
-	 width:auto;
-	 margin: auto;
-	
+	text-align: center;
+	width: auto;
+	margin: auto;
+
 }
 nav ul{
 	list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: inline-block;
 }
 
 nav li {
-    float: left;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
-}
-
-nav li a{
-	display:block;
-	text-align:center;
-	font-size: 25px;
+    font-size: 25px;
 	width:150px; 
 	text-decoration:none;
+	display: block;
+	float: left;
 }
 
 .tableTitle{

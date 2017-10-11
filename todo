@@ -4,7 +4,7 @@ W całej witrynie powinny znaleźć się:
 ◦ akapity			DONE
 ◦ wytłuszczenie   	DONE
 ◦ znaki specjalne	polskie znaki się chyba liczą więc DONE XD
-◦ modyfikacja położenia względem linii bazowej itd. ???
+◦ modyfikacja położenia względem linii bazowej itd. vertical-align: middle?? XD
 2. Grafika:
 ◦ umieszczanie na stronie w naturalnych rozmiarach-DONE i zmodyfikowanych-DONE
 ◦ każda grafika powinna posiadać tekst alternatywny (alt) DONE

@@ -34,7 +34,12 @@
 		<section class="articleSection">
 			<article class="article">
 				<h1>Opis</h1>
-				<p>Daewoo Matiz to jedno z najważniejszych dzieł współczesnej techniki...</p>
+				<p>Daewoo <mark>Matiz</mark> to jedno z najważniejszych dzieł współczesnej techniki...</p>
+				
+				<aside>
+					<p>Jeśli nim nie jeździłeś, to tego nie zrozumiesz!</p>
+				</aside>
+
 			</article>
 		</section>
 	</section>
@@ -43,10 +48,28 @@
 
 		<h2> Zapisz się do naszego newslettera! </h2>
 		
-		<form id="newsletterForm">
-			Imię:  <br><input type="text" name="firstName"><br>
-			Nazwisko:<br>  <input type="text" name="lastName"><br>
-			Adres email: <br><input type="email" name="email"><br>
+		<form id="newsletterForm" autocomplete="on">
+			Imię:  <input type="text" name="firstName"><br>
+			Nazwisko:  <input type="text" name="lastName"><br>
+			Miesiąc urodzin: <input list="months" name="birthMonth"><br>
+			<datalist id="months">
+			<select>
+				<option value="Styczeń">
+				<option value="Luty">
+				<option value="Marzec">
+				<option value="Kwiecień">
+				<option value="Maj">
+				<option value="Czerwiec">
+				<option value="Lipiec">
+				<option value="Sierpień">
+				<option value="Wrzesień">
+				<option value="Październik">
+				<option value="Listopad">
+				<option value="Grudzień">
+			</select>
+			</datalist>
+			Adres email: <input type="email" name="email"><br>
+			Telefon: <input type="tel" name="telephone"><br>
 
 			Jakiego typu informacje chcesz otrzymywać? <br>
 			<input type="checkbox" name="newsType" value="zloty"> Zloty<br>
@@ -83,6 +106,11 @@
 		<form action="mailto:fanklub@matiz.com">
   		  <input type="submit" value="EMAIL" />
 		</form>
+
+		<details>
+				<summary>Regulamin</summary>
+				<p>Twoje dane są chronione ustawą o ochronie danych osobowych</p>	
+		</details>
 
 		
 	</div>

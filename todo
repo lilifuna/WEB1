@@ -1,33 +1,29 @@
-W całej witrynie powinny znaleźć się:
-1. Tekst:
-◦ nagłówki   		DONE
-◦ akapity			DONE
-◦ wytłuszczenie   	DONE
-◦ znaki specjalne	polskie znaki się chyba liczą więc DONE XD
-◦ modyfikacja położenia względem linii bazowej itd. vertical-align: middle?? XD
-2. Grafika:
-◦ umieszczanie na stronie w naturalnych rozmiarach-DONE i zmodyfikowanych-DONE
-◦ każda grafika powinna posiadać tekst alternatywny (alt) DONE
-3. Listy (wypunktowania):
-◦ numerowane DONE
- nienumerowane  	DONE
-◦ zagnieżdżanie list DONE
-4. Tabele:
-◦ wiersze nagłówkowe DONE
-◦ różne formatowane DONE
-◦ zagnieżdżanie		DONE
-◦ łączenie kolumn i wierszy. DONE
-5. Odnośniki (linki):
-◦ do innej strony   DONE
-◦ do etykiety DONE
-◦ umożliwiające pobranie pliku (przez http i ftp), pliki powinny znajdować się w
-różnych lokalizacjach DONE
-◦ wysłanie poczty  DONE
-◦ uaktywniane kliknięciem na obrazek. DONE
-6. Formularz:		DONE
-◦ Kilka pól tekstowych (input type=”text”)  DONE
-◦ Rozwijaną listę z pogrupowanymi opcjami  DONE
-◦ Grupę elementów jednokrotnego wyboru (radio)DONE
-◦ Grupę elementów wielokrotnego wyboru (checkbox)DONE
-◦ Pole tekstowe na wpisanie maksymalnie 200 znaków (text area)DONE
-◦ Przyciski do czyszczenia i wysłania formularza.DONE
+1. Strona startowa ma zawierac odno ´ sniki do pozostałych stron i powinna by ´ c´
+napisana z wykorzystaniem elementów struktury strony takich jak article,
+zagniezd˙ zonych sekcji ˙ section oraz navigation.
+2. Kolejne strony powinny wykorzystywac w sposób praktyczny takie elementy ´
+struktury strony jak: meter, mark, details, summary, aside oraz
+footer.
+3. Utworzyc stron˛e, która b˛edzie zawiera ´ c formularz osobowy. Informacje w ´
+jakim formacie powinny byc pola wypełniane maj ˛a by ´ c umieszczone po pra- ´
+wej stronie za polem tekstowym do wypełnienia. Formularz powinien miec´
+opcj˛e autouzupełniania, któr ˛a trzeba uzyskac za pomoc ˛a atrybutu ´ autocomplete.
+Nalezy pobra ˙ c takie dane jak: ´
+• imi˛e,
+• nazwisko,
+• miesi ˛ac urodzin wykorzystuj ˛ac do tego typ elementu datalist,
+• adres mailowy uzywaj ˛ac ˙ email,
+• telefon wykorzystuj ˛ac tel.
+W przypadku adresu mail walidacja danych powinna odbywac si˛e automa- ´
+tycznie po stronie klienta. Walidacj˛e numeru telefonu prosz˛e wykonac u ´ zy- ˙
+waj ˛ac atrybutu pattern wykorzystuj ˛ac do tego wyrazenie regularne. Jako ˙
+okno aktywne po załadowaniu formularza powinno byc ustawione „Imi˛e” za ´
+pomoc ˛a atrybutu autofocus. Jako pola wymagane do wypełnienia przed
+wysłaniem formularza nalezy ustawi ˙ c „nazwisko” oraz „adres mailowy” przy ´
+pomocy atrybutu required.
+4. Kolejna strona powinna zawierac formularz opisuj ˛acy dodatkowe informa- ´
+cje o uzytkowniku, gdzie miejsca do wypełnienia powinny by ˙ c po załadow- ´
+niu formularza wypełnione na szaro podpowiedzi ˛a do uzupełnienia (prosz˛e
+wykorzystac do tego atrybut ´ placeholder). W formularzu tym nalezy za- ˙
+stosowac takie typy elementów wej ´ sciowych jak: ´ color, month, range,
+search i url.

@@ -47,8 +47,15 @@ nav li {
 	font-size: 50px;
 }
 
-.wallpaper{
+.mainSection{
 	float: right;
 }
+
+meter::after{
+	content: "Ta podstrona jest rozbudowywana...";
+}
+
+
+
 
 

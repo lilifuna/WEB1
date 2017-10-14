@@ -1,16 +1,16 @@
 1. Strona startowa ma zawierac odno ´ sniki do pozostałych stron i powinna by ´ c´
-napisana z wykorzystaniem elementów struktury strony takich jak article,
-zagniezd˙ zonych sekcji ˙ section oraz navigation.
+napisana z wykorzystaniem elementów struktury strony takich jak article DONE,
+zagniezd˙ zonych sekcji ˙ section DONE oraz navigation DONE.
 2. Kolejne strony powinny wykorzystywac w sposób praktyczny takie elementy ´
-struktury strony jak: meter, mark, details, summary, aside oraz
-footer.
+struktury strony jak: meter DONE, mark, details, summary, aside oraz
+footer DONE ALE CHUJEK NIE CHCE SIE TRZYMAC NA SAMYM DOLE - UMIESZ TO POPRAWIC?.
 3. Utworzyc stron˛e, która b˛edzie zawiera ´ c formularz osobowy. Informacje w ´
 jakim formacie powinny byc pola wypełniane maj ˛a by ´ c umieszczone po pra- ´
 wej stronie za polem tekstowym do wypełnienia. Formularz powinien miec´
 opcj˛e autouzupełniania, któr ˛a trzeba uzyskac za pomoc ˛a atrybutu ´ autocomplete.
 Nalezy pobra ˙ c takie dane jak: ´
-• imi˛e,
-• nazwisko,
+• imi˛e, DONE
+• nazwisko, DONE
 • miesi ˛ac urodzin wykorzystuj ˛ac do tego typ elementu datalist,
 • adres mailowy uzywaj ˛ac ˙ email,
 • telefon wykorzystuj ˛ac tel.

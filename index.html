@@ -49,8 +49,8 @@
 		<h2> Zapisz się do naszego newslettera! </h2>
 		
 		<form id="newsletterForm" autocomplete="on">
-			Imię:  <input type="text" name="firstName"><br>
-			Nazwisko:  <input type="text" name="lastName"><br>
+			Imię:  <input type="text" name="firstName" autofocus="on"><br>
+			Nazwisko:  <input type="text" name="lastName" required="on"><br>
 			Miesiąc urodzin: <input list="months" name="birthMonth"><br>
 			<datalist id="months">
 			<select>
@@ -68,7 +68,7 @@
 				<option value="Grudzień">
 			</select>
 			</datalist>
-			Adres email: <input type="email" name="email"><br>
+			Adres email: <input type="email" name="email" required="on"><br>
 			Telefon: <input type="tel" name="telephone"><br>
 
 			Jakiego typu informacje chcesz otrzymywać? <br>

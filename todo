@@ -18,9 +18,9 @@ W przypadku adresu mail walidacja danych powinna odbywac si˛e automa- ´
 tycznie po stronie klienta. Walidacj˛e numeru telefonu prosz˛e wykonac u ´ zy- ˙
 waj ˛ac atrybutu pattern wykorzystuj ˛ac do tego wyrazenie regularne. Jako ˙
 okno aktywne po załadowaniu formularza powinno byc ustawione „Imi˛e” za ´
-pomoc ˛a atrybutu autofocus. Jako pola wymagane do wypełnienia przed
+pomoc ˛a atrybutu autofocus DONE. Jako pola wymagane do wypełnienia przed
 wysłaniem formularza nalezy ustawi ˙ c „nazwisko” oraz „adres mailowy” przy ´
-pomocy atrybutu required.
+pomocy atrybutu required DONE.
 4. Kolejna strona powinna zawierac formularz opisuj ˛acy dodatkowe informa- ´
 cje o uzytkowniku, gdzie miejsca do wypełnienia powinny by ˙ c po załadow- ´
 niu formularza wypełnione na szaro podpowiedzi ˛a do uzupełnienia (prosz˛e

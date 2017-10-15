@@ -3,7 +3,8 @@ napisana z wykorzystaniem elementów struktury strony takich jak article DONE,
 zagniezd˙ zonych sekcji ˙ section DONE oraz navigation DONE.
 2. Kolejne strony powinny wykorzystywac w sposób praktyczny takie elementy ´
 struktury strony jak: meter DONE, mark DONE, details DONE, summary, aside DONE TROCHE NA SIŁE oraz
-footer DONE ALE CHUJEK NIE CHCE SIE TRZYMAC NA SAMYM DOLE - UMIESZ TO POPRAWIC? XD.
+footer DONE 																		             //Wstawiłem ten footer do podstrony o historii marki - powinien być używany na dole
+																									sekcji article/aside nav/section
 3. Utworzyc stron˛e, która b˛edzie zawiera ´ c formularz osobowy DONE. Informacje w ´
 jakim formacie powinny byc pola wypełniane maj ˛a by ´ c umieszczone po pra- ´
 wej stronie za polem tekstowym do wypełnienia DONE. Formularz powinien miec´
@@ -12,11 +13,12 @@ Nalezy pobra ˙ c takie dane jak: ´
 • imi˛e, DONE
 • nazwisko, DONE
 • miesi ˛ac urodzin wykorzystuj ˛ac do tego typ elementu datalist,DONE
-• adres mailowy uzywaj ˛ac ˙ email, DONE? (type=„email” styka?)
+• adres mailowy uzywaj ˛ac ˙ email, DONE? (type=„email” styka?) WYSTARCZY - DONE
 • telefon wykorzystuj ˛ac tel. DONE
 W przypadku adresu mail walidacja danych powinna odbywac si˛e automa- ´
 tycznie po stronie klienta. Walidacj˛e numeru telefonu prosz˛e wykonac u ´ zy- ˙
-waj ˛ac atrybutu pattern wykorzystuj ˛ac do tego wyrazenie regularne. Jako ˙
+waj ˛ac atrybutu pattern wykorzystuj ˛ac do tego wyrazenie regularne. DONE
+ Jako ˙
 okno aktywne po załadowaniu formularza powinno byc ustawione „Imi˛e” za ´
 pomoc ˛a atrybutu autofocus DONE. Jako pola wymagane do wypełnienia przed
 wysłaniem formularza nalezy ustawi ˙ c „nazwisko” oraz „adres mailowy” przy ´

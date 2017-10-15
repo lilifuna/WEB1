@@ -49,8 +49,8 @@
 		<h2> Zapisz się do naszego newslettera! </h2>
 		
 		<form id="newsletterForm" autocomplete="on">
-			Imię:  <input type="text" name="firstName" autofocus="on"><br>
-			Nazwisko:  <input type="text" name="lastName" required="on"><br>
+			Imię:  <input type="text" name="firstName" autofocus="on" placeholder="Jan"><br>
+			Nazwisko:  <input type="text" name="lastName" required="on" placeholder="Nowak"><br>
 			Miesiąc urodzin: <input list="months" name="birthMonth"><br>
 			<datalist id="months">
 			<select>
@@ -68,8 +68,8 @@
 				<option value="Grudzień">
 			</select>
 			</datalist>
-			Adres email: <input type="email" name="email" required="on"><br>
-			Telefon: <input type="tel" name="telephone"><br>
+			Adres email: <input type="email" name="email" required="on" placeholder="alice@wonder.land"><br>
+			Telefon: <input type="tel" name="telephone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="123-456-789"><br>
 
 			Jakiego typu informacje chcesz otrzymywać? <br>
 			<input type="checkbox" name="newsType" value="zloty"> Zloty<br>
@@ -96,7 +96,7 @@
 			</select><br>
 
 
-			<textarea id="textarea" name="message">Zostaw nam wiadomość</textarea><br>
+			<textarea id="textarea" name="message" placeholder="Zostaw nam wiadomość"></textarea><br>
 
 			<input type="submit" value="Wyślij"> <input type="reset" value="Resetuj formularz">
 		</form>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+	<title>Daewoo Matiz</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Fanklub Matiza">
+	<meta name="keywords" content="Matiz, Deawoo, Auto, Samochody, Fanklub">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+
+<body>
+
+		<div class="title"> <h1 id="anchor"><b>DAEWOO MATIZ</b></h1> </div>
+
+	<nav>
+		<ul>
+			<li><a href="index.html#anchor">Strona główna</a></li>
+			<li><a href="wersje.html">Wersje matiza</a></li>
+			<li><a href="historia.html">Historia marki</a></li>
+		</ul>
+	</nav>
+
+<hr class="sectionDivider"/>
+
+		<section class="mainSection">
+	
+	<h2>O Matizie</h2>
+		<section class="imageSection">
+			<h3>Piękny matiz</h3>
+			<a href="http://www.daewoo.com">
+				<img src="content/wallpaper.jpg" alt="Daewoo Matiz" class="wallpaper" />
+			</a>
+		</section>
+
+		<section class="articleSection">
+		<h2>Daewoo Matiz to najszybszy samochód</h2>
+			<article class="article">
+				<h2>Opis</h2>
+				<p>Daewoo <mark>Matiz</mark> to jedno z najważniejszych dzieł współczesnej techniki...</p>
+				
+				<aside>
+					<p>Jeśli nim nie jeździłeś, to tego nie zrozumiesz!</p>
+				</aside>
+
+			</article>
+		</section>
+	</section>
+	
+	
+	<div class="container">
+
+		<h2>Powiedz nam więcej o swoim samochodzie.</h2>
+		<form id="carForm">
+			Kolor Twojego matiza: <input type="color" name="carColor"><br>
+			Jak bardzo lubisz swojego matiza: <input type="range" name="mileage" min="0" max="100"><br>
+			Data produkcji twojego matiza: <input type="month" name="monthOfProd"><br>
+			Twoja strona internetowa <input type="url" name="website" placeholder="www.pwr.pl"><br>
+			Chcesz coś wyszukać? <input type="search" name="sear" id="query" placeholder="DuckDuckGo">
+			<input type="submit" name="sub" onclick="doGoogleSearch()">
+		</form>
+		
+
+		<script>
+			function doGoogleSearch(){
+				var query = document.getElementById('query').value;
+				window.open('https://duckduckgo.com/?q=' + query + '&t=h_&ia=web');
+			}
+		</script>
+
+
+		<details>
+				<summary>Regulamin</summary>
+				<p>Twoje dane są chronione ustawą o ochronie danych osobowych</p>	
+		</details>
+
+	
+	</div>
+
+
+
+</body>

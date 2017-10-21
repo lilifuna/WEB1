@@ -55,6 +55,10 @@ meter::after{
 	content: "Ta podstrona jest rozbudowywana...";
 }
 
+aside{
+	float: right;
+}
+
 
 
 

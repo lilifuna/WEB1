@@ -52,24 +52,24 @@ border-color.DONE
 10. Zaprezentuj reguły CSS wykorzystujące wartości atrybutów znaczników HTML. ??????????????
 11. Zaprezentuj możliwości użycia reguły @media. DONE
 12. Zaprezentuj działanie pseudklas CSS:
-		:active,
-		:checked, 
+		:active,		DONE
+		:checked,       DONE
 		:disabled, 
 		:empty, 
 		:enabled, 
 		:first,
 		:first-child, 
-		:focus, 
-		:hover, 
+		:focus, 		DONE
+		:hover, 		DONE
 		:last-child, 
 		:last-of-type, 
 		:link, 
 		:not(), 
-		:nth-child(),
+		:nth-child(),  DONE
 		:nth-last-child(), 
 		:only-child, 
 		:required, 
-		:target, 
+		:target, 		
 		:visited
 13. Stwórz szablon strony z menu rozwijanym w oparciu o CSS. Menu powinno posiadać
 co najmniej trzy kategorie, a dla każdej kategorii podkategorię, a dla podkategorii

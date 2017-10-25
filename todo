@@ -50,7 +50,7 @@ border-style, DONE
 border-color.DONE
 9. Zaprezentuj różne możliwość stylowania tabel.
 10. Zaprezentuj reguły CSS wykorzystujące wartości atrybutów znaczników HTML. ??????????????
-11. Zaprezentuj możliwości użycia reguły @media.
+11. Zaprezentuj możliwości użycia reguły @media. DONE
 12. Zaprezentuj działanie pseudklas CSS:
 		:active,
 		:checked, 
@@ -73,4 +73,4 @@ border-color.DONE
 		:visited
 13. Stwórz szablon strony z menu rozwijanym w oparciu o CSS. Menu powinno posiadać
 co najmniej trzy kategorie, a dla każdej kategorii podkategorię, a dla podkategorii
-kolejną podkategorię.
+kolejną podkategorię.  																	DONE

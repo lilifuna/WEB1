@@ -103,8 +103,28 @@ nav ul li {
 	float: left;
 }
 
-.link{
-	color: white;
+@media screen{
+	.link{
+		color: white;
+	}
+}
+
+.link:visited{
+	color: magenta;
+}
+
+.handheldOnly{
+	visibility: hidden;
+	font-size: 100px;
+	position: fixed;
+	top:500px;
+	left: 50px;
+}
+
+@media handheld{
+	.handheldOnly{
+		visibility: visible;
+	}
 }
 
 .tableTitle{

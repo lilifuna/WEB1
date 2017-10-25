@@ -1,7 +1,11 @@
 div.title{
 	text-align: center;
 	font-weight: bold;
+<<<<<<< HEAD
 	font-style: italic;
+=======
+	font-style:italic;
+>>>>>>> 7baa4515064b4b967bd7ea1033593f5c4d357975
 	font-size: 40px;
 	height: 75px;
 }

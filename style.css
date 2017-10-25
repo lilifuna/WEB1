@@ -6,6 +6,24 @@ div.title{
 	height: 75px;
 }
 
+
+input:empty{
+	background-color: blue;
+}
+
+input:required{
+	background-color: #db3f3f;
+}
+
+input:enabled{
+	color: black;
+}
+
+input:disabled{
+	color: yellow;
+}
+
+
 #newsletterForm{
 	font-size:13pt;
 }
@@ -25,6 +43,9 @@ div.title{
 	bottom:150px;
 }
 
+#carFormLink:visited{
+	color: magenta;
+}
 
 p.paragraphAbsolute{
 	position: absolute;
@@ -36,11 +57,15 @@ p.historyParagraph{
 	width: 750px;
 	vertical-align: middle;
 	line-height: 30px;
+	font-weight: bold;
 	padding: 15px;
+	color: black;
 	border-style: solid;
 	border-width: 20px;
 	border-color: magenta;
-
+	background-image: url("content/matizIcon.jpg");
+	background-repeat: repeat-x;
+	background-position: center;
 }
 
 div.footer{
@@ -51,6 +76,9 @@ div.footer{
 
 }
 
+div.manual{
+	background: #f1f1f1 url("content/matizIcon.jpg") repeat-x ;
+}
 .tableCell{
 	width:150px;
 	height: 120px;
@@ -67,25 +95,6 @@ nav{
 	margin: auto;
 	background-color: black;
 	color: white;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
 }
 
 
@@ -129,6 +138,25 @@ input:active{
 	background-color: #f2f2f2;
 }
 
+#models li ul li:nth-last-child(2){
+	color: magenta;
+}
+
+#models li ul li:only-child{
+	color: blue;
+}
+
+#models li :not(li){
+	border-style: dotted;
+	border-radius: 5px;
+	border-color: black;
+	width: 100px;
+}
+
+#models li ul li:last-of-type{
+	color: yellow;
+}
+
 nav ul li {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     font-size: 25px;
@@ -147,6 +175,11 @@ nav ul li {
 .link:visited{
 	color: magenta;
 }
+
+:link{
+	color:yellow;
+}
+
 
 .handheldOnly{
 	visibility: hidden;

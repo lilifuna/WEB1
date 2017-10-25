@@ -19,8 +19,12 @@ stronie (em, px, pt, %) DONE
 
 4. Zaprezentuj różne sposoby ustawienia tła strony - jego pozycji, powtarzalności,
 ograniczania (np. powtarzanie do połowy wysokości strony) i rozciągania
-(background-color DONE, background-image(MYŚLE ŻE ABY NIE NAROBIĆ BAJZLU TO NAJLEPIEJ TO WJEBAĆ DO STOPKI, ZROBIŁEM DIV FOOTER ALE SKURWESYNA NIE UMIEM USTAWIĆ ŻEBY BYŁ NA SAMYM DOLE, background-repeat, backgroundattachment,
-background-position, background)
+(background-color DONE, 
+background-image DONE,
+ background-repeat, DONE
+  backgroundattachment, DONE
+background-position,   DONE
+background) DONE
 
 5. Zaprezentuj różne sposoby definiowania selektorów CSS i wraz z ich wykorzystaniem
 na stronie. Omów w jakich sytuacjach najlepiej je wykorzystywać (identyfikatory, klasy,
@@ -66,28 +70,24 @@ border-color.DONE
 12. Zaprezentuj działanie pseudklas CSS:
 		:active,		DONE
 		:checked,       DONE
-		:disabled, 
-		:empty, 
-		:enabled, 
-		:first,
-		:first-child, 
-<<<<<<< HEAD
-		:focus, 
-		:hover, DONE
-=======
+		:disabled, 		DONE
+		:empty, 		DONE
+		:enabled, 		DONE
+		:first,					NA W3SCHOOLS NIE MA W OGOLE TAKIEJ PSEUDOKLASY WYMIENIONEJ XD
+		:first-child,  	DONE
+		:hover, 		DONE
 		:focus, 		DONE
 		:hover, 		DONE
->>>>>>> 2cfc6c892923f37e6fa688f28ef22053332c28c3
-		:last-child, 
-		:last-of-type, 
-		:link, 
-		:not(), 
+		:last-child, 	DONE
+		:last-of-type,  DONE
+		:link, 			DONE
+		:not(), 		DONE
 		:nth-child(),  DONE
-		:nth-last-child(), 
-		:only-child, 
-		:required, 
-		:target, 		
-		:visited
+		:nth-last-child(), DONE
+		:only-child, 	DONE
+		:required, 		DONE
+		:target, 				JEDNO CHYBA MOŻEMY OLAĆ?
+		:visited  	   DONE
 
 13. Stwórz szablon strony z menu rozwijanym w oparciu o CSS. Menu powinno posiadać
 co najmniej trzy kategorie, a dla każdej kategorii podkategorię, a dla podkategorii

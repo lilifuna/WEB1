@@ -89,9 +89,44 @@ nav{
 }
 
 
+
 nav ul{
 	list-style-type: none;
     display: inline-block;
+}
+
+input:checked{
+	height:50px;
+	width:50px;
+}
+
+
+
+input:focus{
+	padding: 25px;
+}
+
+input:active{
+	background-color: magenta;
+}
+
+#rivalsTable{
+	border-radius: 15px;
+	border-style: dotted;
+}
+
+#rivalsTable tr td{
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-style: dotted;
+	border-bottom-style: dotted;
+	border-left-color: magenta;
+	border-right-color: blue;
+	
+}
+
+#rivalsTable tr:nth-child(even){
+	background-color: #f2f2f2;
 }
 
 nav ul li {
@@ -133,6 +168,14 @@ nav ul li {
 
 .mainSection{
 	float: right;
+}
+
+div.tableContainerFloatLeft{
+
+
+	float:right;
+	padding-top: 400px;
+	padding-right: 100px;
 }
 
 meter::after{

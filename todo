@@ -64,24 +64,29 @@ border-color.DONE
 11. Zaprezentuj możliwości użycia reguły @media. DONE CHUJOWO
 
 12. Zaprezentuj działanie pseudklas CSS:
-		:active,
-		:checked, 
+		:active,		DONE
+		:checked,       DONE
 		:disabled, 
 		:empty, 
 		:enabled, 
 		:first,
 		:first-child, 
+<<<<<<< HEAD
 		:focus, 
 		:hover, DONE
+=======
+		:focus, 		DONE
+		:hover, 		DONE
+>>>>>>> 2cfc6c892923f37e6fa688f28ef22053332c28c3
 		:last-child, 
 		:last-of-type, 
 		:link, 
 		:not(), 
-		:nth-child(),
+		:nth-child(),  DONE
 		:nth-last-child(), 
 		:only-child, 
 		:required, 
-		:target, 
+		:target, 		
 		:visited
 
 13. Stwórz szablon strony z menu rozwijanym w oparciu o CSS. Menu powinno posiadać

@@ -10,7 +10,7 @@ tekstu, listę odnośników, tabelę oraz formularz. Kodowanie wszystkich stron 
 ustawić jako utf-8. Każda strona, posiada własny, unikatowy tytuł oraz jest opatrzona
 meta danymi w szczególności opisem oraz słowami kluczowymi (na potrzeby
 pozycjonowania). - to DONE w dwóch pierwszych listach?
-2. Zaprezentuje różne możliwości osadzania reguł CSS na stronie. DONE tak samo
+2. Zaprezentuje różne możliwości osadzania reguł CSS na stronie. DONE tak samo   dodałem opcję z tagiem <style> w HTML
 3. Zaprezentuj praktyczne wykorzystanie różnych sposobów zmiany wielkości tekstu na
 stronie (em, px, pt, %) DONE
 4. Zaprezentuj różne sposoby ustawienia tła strony - jego pozycji, powtarzalności,
@@ -21,18 +21,56 @@ background-position, background)
 na stronie. Omów w jakich sytuacjach najlepiej je wykorzystywać (identyfikatory, klasy,
 zagnieżdzenia, > ) DONE już wcześniej?
 6. Zaprezentuj praktycznie wszystkie właściwości box-model oraz pozycjonowania
-elementów na stronie (margin, padding, width, height, position:(absolute, relative,
-static, fixed), left,right,top,bottom, float, clear)
+elementów na stronie 
+	(margin DONE, 
+	padding, DONE
+	width DONE, 
+	height DONE, 
+	position:(
+			absolute, DONE
+			relative, DONE
+			static,  DONE - domyślnie
+			fixed), DONE
+	 left, DONE
+	 right, DONE
+	 top, DONE
+	 bottom, DONE
+	 float, DONE
+	  clear) DONE
 7. Zaprezentuj różne sposoby formatowania tekstu oraz ustawianiej jego szerokości
-(font-weight, font-style, font-variant, font-size, line-height, font-family)
-8. Napisz regułę CSS stosując atrybut: border-width, border-style, border-color.
+	(font-weight , DONE 
+	font-style, DONE
+	font-variant, DONE
+	font-size DONE,
+	 line-height, DONE
+	 font-family) DONE
+8. Napisz regułę CSS stosując atrybut: 
+border-width, DONE
+border-style, DONE
+border-color.DONE
 9. Zaprezentuj różne możliwość stylowania tabel.
-10. Zaprezentuj reguły CSS wykorzystujące wartości atrybutów znaczników HTML.
+10. Zaprezentuj reguły CSS wykorzystujące wartości atrybutów znaczników HTML. ??????????????
 11. Zaprezentuj możliwości użycia reguły @media.
 12. Zaprezentuj działanie pseudklas CSS:
-:active,:checked, :disabled, :empty, :enabled, :first,
-:first-child, :focus, :hover, :last-child, :last-of-type, :link, :not(), :nth-child(),
-:nth-last-child(), :only-child, :required, :target, :visited
+		:active,
+		:checked, 
+		:disabled, 
+		:empty, 
+		:enabled, 
+		:first,
+		:first-child, 
+		:focus, 
+		:hover, 
+		:last-child, 
+		:last-of-type, 
+		:link, 
+		:not(), 
+		:nth-child(),
+		:nth-last-child(), 
+		:only-child, 
+		:required, 
+		:target, 
+		:visited
 13. Stwórz szablon strony z menu rozwijanym w oparciu o CSS. Menu powinno posiadać
 co najmniej trzy kategorie, a dla każdej kategorii podkategorię, a dla podkategorii
 kolejną podkategorię.

@@ -9,16 +9,16 @@ należy pamiętać o stosowaniu tzw. vendor prefixes.
 4. Zaprezentuj działanie właściwości box-shadow. DONE
 5. Zastosuj na stronach serwisu gradienty liniowe i radialne. DONE
 6. Wykorzystaj możliwość umieszczania obrazów w tle przy pomocy właściwości:
-background-image, background-position, background-origin,
-background-repeat.
+background-image DONE, background-position DONE, background-origin DONE,
+background-repeat DONE.
 7. Skonstruuj kilka „obrazkowych” obwódek przy pomocy właściwości: border-imagesource,
 border-image-slice, border-image-repeat.
 8. Zaprezentuj możliwości animacji z wykorzystaniem właściwości animation oraz
-reguły @keyframes wraz z jej selektorami.
+reguły @keyframes wraz z jej selektorami. - DONE
 9. Zaprezentuj działanie właściwości transition i transform. Pokaż, że elementy
 można przesuwać, obracać, przekrzywiać. Zaprezentuj zjawisko przenikania obrazów.
 10. Wykorzystaj zewnętrzną czcionkę (np. z http://www.google.com/fonts/). Użyj reguły
-@font-face.
+@font-face. ZA CHUJ NIE MOGE TEGO USTAWIC
 11. Wykorzystaj na stronie Flexible Box Layout Module (FBLM). Przykład działania
 FBLM został pokazany na rys. 1.
 12. Zaprezentuj możliwość publikowania wielokolumnowego (na sztywno) przy pomocy

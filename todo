@@ -3,11 +3,11 @@ W witrynie rozwijanej od początku semestru zaprezentuj nowe możliwości format
 CSS3. Aby nowe możliwości były poprawnie interpretowane przez różne przeglądarki,
 należy pamiętać o stosowaniu tzw. vendor prefixes.
 
-1. Zastosuj właściwość text-shadow.
-2. Dla bloku <div> pokaż możliwości właściwości border-radius.
-3. Pokaż możliwości manipulowania kolorem przy pomocy modeli RGBA oraz HSLA.
-4. Zaprezentuj działanie właściwości box-shadow.
-5. Zastosuj na stronach serwisu gradienty liniowe i radialne.
+1. Zastosuj właściwość text-shadow. DONE
+2. Dla bloku <div> pokaż możliwości właściwości border-radius. DONE
+3. Pokaż możliwości manipulowania kolorem przy pomocy modeli RGBA oraz HSLA. DONE
+4. Zaprezentuj działanie właściwości box-shadow. DONE
+5. Zastosuj na stronach serwisu gradienty liniowe i radialne. DONE
 6. Wykorzystaj możliwość umieszczania obrazów w tle przy pomocy właściwości:
 background-image, background-position, background-origin,
 background-repeat.

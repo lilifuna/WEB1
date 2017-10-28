@@ -1,13 +1,12 @@
 div.title{
 	text-align: center;
 	font-weight: bold;
-<<<<<<< HEAD
 	font-style: italic;
-=======
 	font-style:italic;
->>>>>>> 7baa4515064b4b967bd7ea1033593f5c4d357975
 	font-size: 40px;
 	height: 75px;
+	text-shadow: 2px 2px #FF0000;
+	background-image: linear-gradient(white,black);
 }
 
 
@@ -82,6 +81,9 @@ div.footer{
 
 div.manual{
 	background: #f1f1f1 url("content/matizIcon.jpg") repeat-x ;
+
+	border: 3px solid gray;
+	border-radius: 25px;
 }
 .tableCell{
 	width:150px;
@@ -97,8 +99,8 @@ nav{
 	text-align: center;
 	width: auto;
 	margin: auto;
-	background-color: black;
 	color: white;
+	background-color: black;
 }
 
 
@@ -168,6 +170,8 @@ nav ul li {
 	text-decoration:none;
 	display: block;
 	float: left;
+	background-image: radial-gradient(white -10%, black 60%);
+
 }
 
 @media screen{
@@ -239,12 +243,26 @@ th{
 	height: 30px;
 }
 
+input[type="reset"]{
+	background-color: rgba(255, 0, 0, 0.6);
+}
+
 input[type="submit"]{
-	background-color: yellow;
+	background-color: hsla(120, 100%, 50%, 0.3);
 }
 
 article:hover{
 	border: 5px solid black;
+}
+
+div.container{
+}
+
+div.footer{
+}
+
+.wallpaper{
+	box-shadow: 10px 10px 5px #888888;
 }
 
 

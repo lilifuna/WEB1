@@ -1,94 +1,27 @@
-Podstawy programowania w języku CSS3 - cz. 1
-Działanie HTML i CSS należy sprawdzić na pięciu przeglądarkach: Chrome, Internet
-Explorer, Firefox, Opera, Safari.
-Proszę utworzyć witrynę zawierającą kilka stron zgodnych z standardem HTML 5 z
-odwołaniem do w zewnętrznego arkusza stylów zgodnego z standardem CSS3.
-Wszystkie reguły CSS, z wyjątkiem punktu 2, powinny być umieszczone w zewnętrznym
-arkuszu stylów.
+CSS – cz. 2
+W witrynie rozwijanej od początku semestru zaprezentuj nowe możliwości formatowania
+CSS3. Aby nowe możliwości były poprawnie interpretowane przez różne przeglądarki,
+należy pamiętać o stosowaniu tzw. vendor prefixes.
 
-1. Strona startowa zawiera odnośniki do stron zawierających kolejno: kilka akapitów
-tekstu, listę odnośników, tabelę oraz formularz. Kodowanie wszystkich stron proszę
-ustawić jako utf-8. Każda strona, posiada własny, unikatowy tytuł oraz jest opatrzona
-meta danymi w szczególności opisem oraz słowami kluczowymi (na potrzeby
-pozycjonowania). - to DONE w dwóch pierwszych listach?
-
-2. Zaprezentuje różne możliwości osadzania reguł CSS na stronie. DONE tak samo   dodałem opcję z tagiem <style> w HTML
-
-3. Zaprezentuj praktyczne wykorzystanie różnych sposobów zmiany wielkości tekstu na
-stronie (em, px, pt, %) DONE
-
-4. Zaprezentuj różne sposoby ustawienia tła strony - jego pozycji, powtarzalności,
-ograniczania (np. powtarzanie do połowy wysokości strony) i rozciągania
-(background-color DONE, 
-background-image DONE,
- background-repeat, DONE
-  backgroundattachment, DONE
-background-position,   DONE
-background) DONE
-
-5. Zaprezentuj różne sposoby definiowania selektorów CSS i wraz z ich wykorzystaniem
-na stronie. Omów w jakich sytuacjach najlepiej je wykorzystywać (identyfikatory, klasy,
-zagnieżdzenia, > ) DONE już wcześniej?
-
-6. Zaprezentuj praktycznie wszystkie właściwości box-model oraz pozycjonowania
-elementów na stronie 
-	(margin DONE, 
-	padding, DONE
-	width DONE, 
-	height DONE, 
-	position:(
-			absolute, DONE
-			relative, DONE
-			static,  DONE - domyślnie
-			fixed), DONE
-	 left, DONE
-	 right, DONE
-	 top, DONE
-	 bottom, DONE
-	 float, DONE
-	  clear) DONE
-
-7. Zaprezentuj różne sposoby formatowania tekstu oraz ustawianiej jego szerokości
-	(font-weight , DONE 
-	font-style, DONE
-	font-variant, DONE
-	font-size DONE,
-	 line-height, DONE
-	 font-family) DONE
-
-8. Napisz regułę CSS stosując atrybut: 
-border-width, DONE
-border-style, DONE
-border-color.DONE
-
-9. Zaprezentuj różne możliwość stylowania tabel. DONE
-
-10. Zaprezentuj reguły CSS wykorzystujące wartości atrybutów znaczników HTML. DONE
-
-11. Zaprezentuj możliwości użycia reguły @media. DONE CHUJOWO
-
-12. Zaprezentuj działanie pseudklas CSS:
-		:active,		DONE
-		:checked,       DONE
-		:disabled, 		DONE
-		:empty, 		DONE
-		:enabled, 		DONE
-		:first,					NA W3SCHOOLS NIE MA W OGOLE TAKIEJ PSEUDOKLASY WYMIENIONEJ XD
-		:first-child,  	DONE
-		:hover, 		DONE
-		:focus, 		DONE
-		:hover, 		DONE
-		:last-child, 	DONE
-		:last-of-type,  DONE
-		:link, 			DONE
-		:not(), 		DONE
-		:nth-child(),  DONE
-		:nth-last-child(), DONE
-		:only-child, 	DONE
-		:required, 		DONE
-		:target, 				JEDNO CHYBA MOŻEMY OLAĆ?
-		:visited  	   DONE
-
-13. Stwórz szablon strony z menu rozwijanym w oparciu o CSS. Menu powinno posiadać
-co najmniej trzy kategorie, a dla każdej kategorii podkategorię, a dla podkategorii
-kolejną podkategorię.  																	DONE
+1. Zastosuj właściwość text-shadow. DONE
+2. Dla bloku <div> pokaż możliwości właściwości border-radius. DONE
+3. Pokaż możliwości manipulowania kolorem przy pomocy modeli RGBA oraz HSLA. DONE
+4. Zaprezentuj działanie właściwości box-shadow. DONE
+5. Zastosuj na stronach serwisu gradienty liniowe i radialne. DONE
+6. Wykorzystaj możliwość umieszczania obrazów w tle przy pomocy właściwości:
+background-image DONE, background-position DONE, background-origin DONE,
+background-repeat DONE.
+7. Skonstruuj kilka „obrazkowych” obwódek przy pomocy właściwości: border-imagesource,
+border-image-slice, border-image-repeat.
+8. Zaprezentuj możliwości animacji z wykorzystaniem właściwości animation oraz
+reguły @keyframes wraz z jej selektorami. - DONE
+9. Zaprezentuj działanie właściwości transition i transform. Pokaż, że elementy
+można przesuwać, obracać, przekrzywiać. Zaprezentuj zjawisko przenikania obrazów.
+10. Wykorzystaj zewnętrzną czcionkę (np. z http://www.google.com/fonts/). Użyj reguły
+@font-face. ZA CHUJ NIE MOGE TEGO USTAWIC
+11. Wykorzystaj na stronie Flexible Box Layout Module (FBLM). Przykład działania
+FBLM został pokazany na rys. 1.
+12. Zaprezentuj możliwość publikowania wielokolumnowego (na sztywno) przy pomocy
+właściwości: column-count, column-gap, column-rule.
+13. Pokaż, że przy pomocy reguły @media można liczbę kolumn uzależnić od
+rozdzielczości ekranu urządzenia, na którym wyświetla jest strona.

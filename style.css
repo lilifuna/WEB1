@@ -134,20 +134,27 @@ div.manual{
 	border: 1px solid black;
 }
 
-
+.navBar{
+	padding-bottom: 25px;
+}
 nav{
 	text-align: center;
 	width: auto;
 	margin: auto;
 	color: white;
 	background-color: black;
+	position:relative;
+    left: 35%;
+    top:10px;
 }
 
 
 
 nav ul{
 	list-style-type: none;
-    display: inline-block;
+    display: box-flex;
+    
+
 }
 
 input:checked{
@@ -319,6 +326,24 @@ div.footer{
 	padding: 100px;
 }
 
+#cf {
+  position:relative;
+
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
 
 
 

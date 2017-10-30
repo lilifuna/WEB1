@@ -22,11 +22,11 @@ można
 przesuwać,  
 obracać, DONE
 przekrzywiać.DONE 
-Zaprezentuj zjawisko przenikania obrazów.  NIE DO KOŃCA ROZUMIEM? MAM TO UZYSKAĆ ZA POMOCA TRANSITION I TRANSFORM?
+Zaprezentuj zjawisko przenikania obrazów.  DONE
 10. Wykorzystaj zewnętrzną czcionkę (np. z http://www.google.com/fonts/). Użyj reguły
 @font-face. 						ZROBIŁEM TO KURWA XD
 11. Wykorzystaj na stronie Flexible Box Layout Module (FBLM). Przykład działania
-FBLM został pokazany na rys. 1.
+FBLM został pokazany na rys. 1.													DONE, ALE CHUJOWO WYGLĄDA STRASZNIE
 12. Zaprezentuj możliwość publikowania wielokolumnowego (na sztywno) przy pomocy
 właściwości: column-count, column-gap, column-rule. DONE
 13. Pokaż, że przy pomocy reguły @media można liczbę kolumn uzależnić od

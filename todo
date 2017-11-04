@@ -3,9 +3,9 @@ dynamikę po stronie klienta. Należy zaprogramować minimum 5 własnych funkcji
 Współdzielone funkcje należy umieścić w osobnym pliku .js. Konieczne jest użycie
 następujących elementów języka JavaScript:
 • document.writeln()
-• document.getElementById()
-• window.prompt()
-• window.alert()
+• document.getElementById() DONE
+• window.prompt() DONE
+• window.alert() DONE
 • window.addEventListener()
 • button.addEventListener()
 • właściwość innerHTML
@@ -13,7 +13,7 @@ następujących elementów języka JavaScript:
 • parseFloat()
 • Math.random()
 • Math.floor()
-• instrukcje sterujące: if…else, case, while, do…while, for
+• instrukcje sterujące: if…else DONE, case, while, do…while, for
 • zmienne globalne
 Przed przystąpieniem do realizacji ćwiczenia sugeruje się przestudiowanie
 rozdziałów 6 – 11 podręcznika IWWWHtP5, ze szczególnym uwzględnieniem sekcji:

@@ -9,7 +9,7 @@
 
 
 
-<body>
+<body class="index">
 	<div class="title"> <h1 id="anchor"><b>DAEWOO MATIZ</b></h1> </div>
 	<div class="navBar">
 		<nav>
@@ -52,11 +52,11 @@
 		</section>
 	</section>
 	
-	<div class="container">
+	<div class="container" id="newsletter">
 
 		<h2 id="newsletterHeader"> Zapisz się do naszego newslettera! </h2>
 		
-		<form id="newsletterForm" autocomplete="on" target="_blank" action="form.html">
+		<form id="newsletterForm" class="form" autocomplete="on" target="_blank" action="form.html">
 			Imię:  <input type="text" name="firstName" autofocus placeholder="Jan"><br>
 			Nazwisko:  <input type="text" name="lastName" required placeholder="Nowak"><br>
 			Miesiąc urodzin: <input list="months" name="birthMonth"><br>
@@ -134,4 +134,6 @@
 
 	
 
+		<script src="script.js"></script>
+		<script> welcome() </script>
 </body>

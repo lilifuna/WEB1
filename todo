@@ -1,33 +1,22 @@
-CSS – cz. 2
-W witrynie rozwijanej od początku semestru zaprezentuj nowe możliwości formatowania
-CSS3. Aby nowe możliwości były poprawnie interpretowane przez różne przeglądarki,
-należy pamiętać o stosowaniu tzw. vendor prefixes.
-
-1. Zastosuj właściwość text-shadow. DONE
-2. Dla bloku <div> pokaż możliwości właściwości border-radius. DONE
-3. Pokaż możliwości manipulowania kolorem przy pomocy modeli RGBA oraz HSLA. DONE
-4. Zaprezentuj działanie właściwości box-shadow. DONE
-5. Zastosuj na stronach serwisu gradienty liniowe i radialne. DONE
-6. Wykorzystaj możliwość umieszczania obrazów w tle przy pomocy właściwości:
-background-image DONE, background-position DONE, background-origin DONE,
-background-repeat DONE.
-7. Skonstruuj kilka „obrazkowych” obwódek przy pomocy właściwości: 
-border-imagesource, DONE
-border-image-slice, DONE
- border-image-repeat. DONE
-8. Zaprezentuj możliwości animacji z wykorzystaniem właściwości animation oraz
-reguły @keyframes wraz z jej selektorami. - DONE
-9. Zaprezentuj działanie właściwości transition i transform. Pokaż, że elementy
-można 
-przesuwać,  
-obracać, DONE
-przekrzywiać.DONE 
-Zaprezentuj zjawisko przenikania obrazów.  DONE
-10. Wykorzystaj zewnętrzną czcionkę (np. z http://www.google.com/fonts/). Użyj reguły
-@font-face. 						ZROBIŁEM TO KURWA XD
-11. Wykorzystaj na stronie Flexible Box Layout Module (FBLM). Przykład działania
-FBLM został pokazany na rys. 1.													DONE, ALE CHUJOWO WYGLĄDA STRASZNIE
-12. Zaprezentuj możliwość publikowania wielokolumnowego (na sztywno) przy pomocy
-właściwości: column-count, column-gap, column-rule. DONE
-13. Pokaż, że przy pomocy reguły @media można liczbę kolumn uzależnić od
-rozdzielczości ekranu urządzenia, na którym wyświetla jest strona.   DONE
+Proszę wyposażyć strony witryny WWW w skrypty JavaScript wprowadzające
+dynamikę po stronie klienta. Należy zaprogramować minimum 5 własnych funkcji.
+Współdzielone funkcje należy umieścić w osobnym pliku .js. Konieczne jest użycie
+następujących elementów języka JavaScript:
+• document.writeln()
+• document.getElementById()
+• window.prompt()
+• window.alert()
+• window.addEventListener()
+• button.addEventListener()
+• właściwość innerHTML
+• parseInt()
+• parseFloat()
+• Math.random()
+• Math.floor()
+• instrukcje sterujące: if…else, case, while, do…while, for
+• zmienne globalne
+Przed przystąpieniem do realizacji ćwiczenia sugeruje się przestudiowanie
+rozdziałów 6 – 11 podręcznika IWWWHtP5, ze szczególnym uwzględnieniem sekcji:
+6.2 – 6.4, 9.2 – 9.8.
+Po zakończeniu pracy skrypty należy zwalidować wykorzystując serwis:
+http://www.javascriptlint.com/, http://www.jslint.com/ lub inny

@@ -14,9 +14,9 @@
 
 div.title{
 	text-align: center;
-	font-family: "bebasregular";
 	font-size: 40px;
-	height: 75px;
+	height: 100px;
+	font-family: "bebasregular";
 	text-shadow: 2px 2px #FF0000;
 	background-image: linear-gradient(white,black);
 }
@@ -140,21 +140,22 @@ div.manual{
 nav{
 	text-align: center;
 	width: auto;
+	height: auto;
 	margin: auto;
 	color: white;
 	background-color: black;
-	position:relative;
-    left: 35%;
-    top:10px;
 }
 
 
 
 nav ul{
 	list-style-type: none;
-    display: box-flex;
-    
-
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    left: 33%;
 }
 
 input:checked{

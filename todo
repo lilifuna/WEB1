@@ -2,19 +2,23 @@ Proszę wyposażyć strony witryny WWW w skrypty JavaScript wprowadzające
 dynamikę po stronie klienta. Należy zaprogramować minimum 5 własnych funkcji.
 Współdzielone funkcje należy umieścić w osobnym pliku .js. Konieczne jest użycie
 następujących elementów języka JavaScript:
-• document.writeln()
+• document.writeln() DONE
 • document.getElementById() DONE
 • window.prompt() DONE
 • window.alert() DONE
-• window.addEventListener()
-• button.addEventListener()
-• właściwość innerHTML
-• parseInt()
-• parseFloat()
-• Math.random()
-• Math.floor()
-• instrukcje sterujące: if…else DONE, case, while, do…while, for
-• zmienne globalne
+• window.addEventListener()	DONE
+• button.addEventListener()  DONE
+• właściwość innerHTML DONE
+• parseInt()DONE
+• parseFloat() DONE
+• Math.random()	DONE
+• Math.floor() DONE
+• instrukcje sterujące: if…else DONE, 
+case,
+while, DONE 
+do…while,
+for
+• zmienne globalne DONE
 Przed przystąpieniem do realizacji ćwiczenia sugeruje się przestudiowanie
 rozdziałów 6 – 11 podręcznika IWWWHtP5, ze szczególnym uwzględnieniem sekcji:
 6.2 – 6.4, 9.2 – 9.8.

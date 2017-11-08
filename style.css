@@ -22,9 +22,7 @@ div.title{
 }
 
 
-input:empty{
-	background-color: blue;
-}
+
 
 input:required{
 	background-color: #db3f3f;

@@ -19,7 +19,20 @@ function whilemousedown(){
 }
 
 function dblclick(event){
-	document.getElementById("bmiTitle").style.color = "magenta";
+	let rand = Math.floor((Math.random() * 3) + 1);
+
+	switch(rand){
+		case 1:
+		document.getElementById("bmiTitle").style.color = "magenta";
+		break;
+		
+		case 2:
+		document.getElementById("bmiTitle").style.color = "blue";
+		break;
+		
+		case 3:
+		document.getElementById("bmiTitle").style.color = "green";
+	}
 }
 
 document.getElementById("listener").addEventListener("mousedown", mousedown);

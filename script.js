@@ -35,9 +35,14 @@ function dblclick(event){
 	}
 }
 
+function click(){
+	alert("LICZYMY");
+}
+
 document.getElementById("listener").addEventListener("mousedown", mousedown);
 document.getElementById("listener").addEventListener("mouseup", mouseup);
 window.addEventListener("dblclick", dblclick)
+document.getElementById("button").addEventListener("click", click)
 
 function welcome(){
 	window.alert("Witaj w miejscu dla fanów czterokołowych skuterów!")

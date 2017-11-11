@@ -1,26 +1,20 @@
-Proszę wyposażyć strony witryny WWW w skrypty JavaScript wprowadzające
-dynamikę po stronie klienta. Należy zaprogramować minimum 5 własnych funkcji.
-Współdzielone funkcje należy umieścić w osobnym pliku .js. Konieczne jest użycie
-następujących elementów języka JavaScript:
-• document.writeln() DONE
-• document.getElementById() DONE
-• window.prompt() DONE
-• window.alert() DONE
-• window.addEventListener()	DONE
-• button.addEventListener()  DONE
-• właściwość innerHTML DONE
-• parseInt()DONE
-• parseFloat() DONE
-• Math.random()	DONE
-• Math.floor() DONE
-• instrukcje sterujące: if…else DONE, 
-case,
-while, DONE 
-do…while,
-for
-• zmienne globalne DONE
-Przed przystąpieniem do realizacji ćwiczenia sugeruje się przestudiowanie
-rozdziałów 6 – 11 podręcznika IWWWHtP5, ze szczególnym uwzględnieniem sekcji:
-6.2 – 6.4, 9.2 – 9.8.
+Document Object Model i obsługa zdarzeń
+Na stronach rozwijanej od początku semestru witryny WWW należy:
+1. Zademonstrować działanie metod JavaScript: createElement,
+createTextNode, appendChild, insertBefore,
+replaceChild, removeChild oraz właściwości parentNode.
+2. Zademonstrować działanie kolekcji: images, links, forms, anchors
+oraz metod item i namedItem.
+3. Umożliwić użytkownikowi zmianę na żądanie stylów CSS: koloru tła, koloru tekstu,
+rodzaju czcionki (z listy).
+4. Zademonstrować możliwości właściwości altKey, ctrlKey, shiftKey
+keyCode, clientX, clientY, screenX, screenY obiektu event.
+Wykorzystać zdarzenia: mousemove, mousedown, mouseover, mouseout.
+5. W formularzach wykorzystać zdarzenia focus i blur do wyświetlania tekstów
+pomocy oraz zdarzenia submit i reset do wyzwalania okien potwierdzających.
+Funkcje JavaScript do poszczególnych zadań powinny znajdować sie w osobnych
+plikach .js
+Przed przystąpieniem do realizacji ćwiczenia sugeruje się przestudiowanie z
+podręcznika IWWWHtP5 rozdziałów 12. i 13.
 Po zakończeniu pracy skrypty należy zwalidować wykorzystując serwis:
 http://www.javascriptlint.com/, http://www.jslint.com/ lub inny

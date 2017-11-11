@@ -1,17 +1,18 @@
 Document Object Model i obsługa zdarzeń
 Na stronach rozwijanej od początku semestru witryny WWW należy:
-1. Zademonstrować działanie metod JavaScript: createElement,
-createTextNode, appendChild, insertBefore,
+1. Zademonstrować działanie metod JavaScript: createElement DONE,
+createTextNode DONE, appendChild DONE, insertBefore DONE,
 replaceChild, removeChild oraz właściwości parentNode.
-2. Zademonstrować działanie kolekcji: images, links, forms, anchors
+2. Zademonstrować działanie kolekcji: images DONE, links, forms, anchors
 oraz metod item i namedItem.
 3. Umożliwić użytkownikowi zmianę na żądanie stylów CSS: koloru tła, koloru tekstu,
-rodzaju czcionki (z listy).
+rodzaju czcionki (z listy). NIBY DONE ALE NIE DZIALA XD
 4. Zademonstrować możliwości właściwości altKey, ctrlKey, shiftKey
 keyCode, clientX, clientY, screenX, screenY obiektu event.
 Wykorzystać zdarzenia: mousemove, mousedown, mouseover, mouseout.
 5. W formularzach wykorzystać zdarzenia focus i blur do wyświetlania tekstów
 pomocy oraz zdarzenia submit i reset do wyzwalania okien potwierdzających.
+
 Funkcje JavaScript do poszczególnych zadań powinny znajdować sie w osobnych
 plikach .js
 Przed przystąpieniem do realizacji ćwiczenia sugeruje się przestudiowanie z

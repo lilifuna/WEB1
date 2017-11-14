@@ -1,5 +1,8 @@
 "use strict";
 
+let button = document.getElementById("setStyle");
+button.addEventListener("click", style);
+
 function style(){
 	let fontType = document.getElementById("fontType").selectedIndex;
 	let bgColor = document.getElementById("bgColor").selectedIndex;

@@ -46,111 +46,20 @@
 
 
 		</div>
-
-
-	<section class="mainSection">
-	
-	<h2>O Matizie</h2>
-		<section class="imageSection">
-			<h3>Piękny matiz</h3>
-			<a href="http://www.daewoo.com">
-				<div id="crossfade">
-					<img src="content/wallpaper.jpg" alt="Daewoo Matiz" class="wallpaper" />
-				</div>
-			</a>
-		</section>
-
-		<section class="articleSection">
-		<h2>Daewoo Matiz to najszybszy samochód</h2>
-			<article class="article">
-				<h2>Opis</h2>
-				<p>Daewoo <mark>Matiz</mark> to jedno z najważniejszych dzieł współczesnej techniki...</p>
-				
-				<aside>
-					<p>Jeśli nim nie jeździłeś, to tego nie zrozumiesz!</p>
-				</aside>
-
-			</article>
-		</section>
-	</section>
 	
 	<div class="container" id="newsletter">
 
-		<h2 id="newsletterHeader"> Zapisz się do naszego newslettera! </h2>
-		
-		<form id="newsletterForm" class="form" autocomplete="on" target="_blank" action="php/form.php" method="post">
-			Imię:  <input type="text" name="firstName" autofocus placeholder="Jan"><br>
-			Nazwisko:  <input type="text" name="lastName" required placeholder="Nowak"><br>
-			Miesiąc urodzin: <input list="months" name="birthMonth"><br>
-			<datalist id="months">
-			<select>
-				<option label="Styczeń"> Styczeń  	</option>
-				<option value="Luty"> Luty			</option>
-				<option value="Marzec"> Marzec		</option>
-				<option value="Kwiecień">Kwiecień 	</option>
-				<option value="Maj ">Maj			</option>
-				<option value="Czerwiec">Czerwiec 	</option>
-				<option value="Lipiec"> Lipiec		</option>
-				<option value="Sierpień">Sierpień 	</option>
-				<option value="Wrzesień">Wrzesień 	</option>
-				<option value="Październik">Październik</option>
-				<option value="Listopad">Listopad 	</option>
-				<option value="Grudzień">Grudzień 	</option>
-			</select>
-			</datalist>
-			Adres email: <input type="email" name="email" required placeholder="alice@wonder.land"><br>
-			Telefon: <input type="tel" name="telephone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="123-456-789"><br>
-
-			Jakiego typu informacje chcesz otrzymywać? <br>
-			<input type="checkbox" name="newsType" value="zloty"> Zloty<br>
-			<input type="checkbox" name="newsType" value="newModel"> Nowe modele matiza<br>
-
-			Jesteś: <br>
-			<input type="radio" name="gender" value="female"> Kobietą<br>
-			<input type="radio" name="gender" value="male">Mężczyzną<br>
-
-			Jakim typem matiza jeździsz?<br>
-			<select name="model">
-				<optgroup label="FSO">
-					<option>0.8</option>
-					<option>1.0</option>
-				</optgroup>
-				<optgroup label="Daewoo">
-					<option>0.8</option>
-					<option>1.0</option>
-				</optgroup>
-				<optgroup label="Chevrolet">
-					<option>1.0</option>
-					<option>1.2</option>
-				</optgroup>
-			</select><br>
-
-
-			<textarea id="textarea" name="message" placeholder="Zostaw nam wiadomość"></textarea><br>
-
-			<input type="submit" value="Wyślij"> <input type="reset" value="Resetuj formularz" disabled>
-		</form>
-			
-		<a href="form.html" id="carFormLink">Opowiedz nam coś więcej o swoim samochodzie</a>
-		<h2> Możesz też wysłać nam email z zapytaniem!</h2>
-
-		<form action="mailto:fanklub@matiz.com">
-  		  <input type="submit" value="EMAIL" />
-		</form>
-
-		<details>
-				<summary id="regulamin">Regulamin</summary>
-				<p>Twoje dane są chronione ustawą o ochronie danych osobowych
-				<script>
-					document.writeln(Date());
-				</script>
-				</p>	
-		</details>
-
-		
-			<div class="handheldOnly">
-				UŻYWASZ TELEFONU
-			</div>
+	<h1>Witaj w naszym fanklubie  
+		<?php 
+			$name = $_POST["firstName"];
+				if(strlen($firstName)>20) {
+					die("Za duża liczba znaków dla imienia !");
+				}
+				else {
+					print($firstName);
+				}
+		?>
+	</h1>
 		
 	</div>
 

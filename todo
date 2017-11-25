@@ -1,21 +1,1 @@
-Document Object Model i obsługa zdarzeń
-Na stronach rozwijanej od początku semestru witryny WWW należy:
-1. Zademonstrować działanie metod JavaScript: createElement DONE,
-createTextNode DONE, appendChild DONE, insertBefore DONE,
-replaceChild, removeChild oraz właściwości parentNode.
-2. Zademonstrować działanie kolekcji: images DONE, links, forms, anchors
-oraz metod item i namedItem.
-3. Umożliwić użytkownikowi zmianę na żądanie stylów CSS: koloru tła, koloru tekstu,
-rodzaju czcionki (z listy). NIBY DONE ALE NIE DZIALA XD
-4. Zademonstrować możliwości właściwości altKey, ctrlKey, shiftKey
-keyCode, clientX, clientY, screenX, screenY obiektu event.
-Wykorzystać zdarzenia: mousemove, mousedown, mouseover, mouseout.
-5. W formularzach wykorzystać zdarzenia focus i blur do wyświetlania tekstów
-pomocy oraz zdarzenia submit i reset do wyzwalania okien potwierdzających.
-
-Funkcje JavaScript do poszczególnych zadań powinny znajdować sie w osobnych
-plikach .js
-Przed przystąpieniem do realizacji ćwiczenia sugeruje się przestudiowanie z
-podręcznika IWWWHtP5 rozdziałów 12. i 13.
-Po zakończeniu pracy skrypty należy zwalidować wykorzystując serwis:
-http://www.javascriptlint.com/, http://www.jslint.com/ lub inny
+PHP–cz.1Do witryny, która jest rozwijana od początku semestru należy doprogramować w języku PHP dynamikę po stronie serwera.Najlepiej uczynić to wprowadzając formularze po stronie klienta, z których dane przetwarzane będą przez skrypty po stronie serwera. Formularze powinny zawierać: pola tekstowe, pola jednokrotnego wyboru, pola wielokrotnego wyboru i rozwijane listy. Mogą być też zastosowane dane ukryte.Dane z formularzy powinny być przesyłane na serwer metodą POST. Dostęp do nich powinien być realizowany przez tablicę superglobalną $_POST. Do sprawdzenia ich poprawności powinny być wykorzystane wyrażenia regularne. W przypadku podania przez użytkownika danych, które nie spełniają zadanych kryteriów, w odpowiedzi wysyłanej przez serwer do klienta powinny pojawiać się stosowne komunikaty.W skrypcie przetwarzającym dane z formularza należy pokazać umiejętność posługiwania się następującymi elementami lub właściwościami języka PHP:• typowanie dynamiczne, konwersja typów, rzutowanie,• stałe,• operatory arytmetyczne, operatory przypisania, operatory porównania, pierwszeństwooperatorów,• tablice indeksowane numerycznie i tablice asocjacyjne,• instrukcje sterujące for i foreach oraz funkcje count, reset, key, next,• wyrażenia regularne, funkcje preg_match, preg_replace,• porównywanie łańcuchów (operatory i funkcje), znaki specjalne w łańcuchach (rolaodwrotnego ukośnika),• inne tablice superglobalne (np. ujawnianie w odpowiedzi serwera adresu IP klienta),• funkcja die.Zagadnienia, czyli o co prowadzący może zapytać?1. Stosowane znaczniki PHP, ich znaczenie oraz zakres ich działania.2. Rodzaje komentarzy w skryptach PHP.3. Rola pojedynczych i podwójnych znaków apostrofu oraz par apostrofów.4. Jak deklaruje się i inicjuje zmienne? Czy wielkie i małe litery w nazwie zmiennej są rozróżniane?Jakie są typy zmiennych?5. Realizacja operacji arytmetycznych.6. Na czym polega konwersja typów danych i rzutowanie (casting) zmiennych?7. Sposoby inicjowania i indeksowanie tablic (również tablice asocjacyjne).8. Sposoby „przeglądania” tablic i funkcje wspomagające te działania.9. Jakich kontrolek używa się do wprowadzania danych do formularza? Kiedy, które stosować?10. Która kontrolka formularza wyzwala zdarzenie wysłania danych? Jak określa się metodęwysyłania danych z formularza?11. Jaka jest konstrukcja tablic superglobalnych, w szczególności $_POST?12. Jak realizuje się walidację danych z formularza?

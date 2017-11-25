@@ -51,7 +51,7 @@
 
 	<h1>Witaj w naszym fanklubie  
 		<?php 
-			$name = $_POST["firstName"];
+			$firstName = $_POST["firstName"];
 				if(strlen($firstName)>20) {
 					die("Za duża liczba znaków dla imienia !");
 				}

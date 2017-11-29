@@ -52,9 +52,10 @@
 	<p>
 	<h1>Witaj w naszym fanklubie  
 		<?php 
+			define("EMPTY_NAME","\"Podaj swoje imię!");
 			$firstName = $_POST["firstName"];
 				if($firstName=='') {
-					die("Podaj swoje imię!");
+					die(EMPTY_NAME);
 				}
 				else {
 					print($firstName);
@@ -84,6 +85,50 @@
 	</p>
 
 		
+	</div>
+
+	<div>
+		Klimatyzacja w matizach:
+		<?php
+			$models = array(
+					"friend" => "niedostępną",
+					"life" => "w opcji",
+					"top" => "w standardzie");
+
+			foreach($models as $model => $value){
+				echo $model." ma klimatyzację ".$value."<br>";
+			}
+			echo "<br>".count($models)." - tyle jest modeli matiza"."<br>";
+		?>
+
+		<br><br>
+		<div style="float: right">
+			<?php
+				$members = array("Piotr Cynowski", "Klaudia Hachuła", "Kamil Podlasek", "Aleksandra Szczygieł");
+				echo current($members)."<br>";
+				echo next($members)."<br>";
+				echo next($members);
+				echo "<h2> Pierwszych ".(key($members)+1)." członków klubu </h2>"."<br>";
+				reset($members);
+
+				echo "<br>";
+				for($i = 1; $i <= 10; $i++){
+					echo $i." ";
+				}
+
+				$random = rand(0,1);
+				if($random){
+					$a = "String";
+				}
+				else
+				{
+					$a = 2.5;
+					echo "<br>".(int)$a;
+				}
+				echo "<br>".$a;
+			?>
+		</div>
+
 	</div>
 
 	<div id="dynamicDiv">

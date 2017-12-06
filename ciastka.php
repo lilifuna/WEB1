@@ -45,21 +45,21 @@
 <p>Typ czcionki: 
 <?php 
 	$ft=$_POST["fontType"];
-	setcookie("fontType",$ft, time() + 10, "/");
+	setcookie("ft",$ft, time() + 10, "/");
 	echo $ft;
 ?>
 </p>
 <p>Tło: 
 <?php 
 	$bgc=$_POST["bgColor"];
-	setcookie("bgColor",$bgc, time() + 10, "/");
+	setcookie("bgc",$bgc, time() + 10, "/");
 	echo $bgc;
 ?>
 </p>
 <p>Kolor czcionki: 
 <?php 
 	$fc=$_POST["fontColor"];
-	setcookie("fontColor",$fc, time() + 10, "/");
+	setcookie("fc",$fc, time() + 10, "/");
 	echo $fc;
 ?>
 </p>

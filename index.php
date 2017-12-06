@@ -50,7 +50,7 @@
 		</form>
 
 		<?php
-		if(isset($_COOKIE["fontType"]) || isset($_COOKIE["bgColor"]) || isset($_COOKIE["fontColor"]))
+		if(isset($_COOKIE["ft"]) || isset($_COOKIE["bgc"]) || isset($_COOKIE["fc"]))
 		{	
 		$styleBlock = sprintf('
 			<style type="text/css">
@@ -60,9 +60,9 @@
 				color:%s;
 				}
 			</style>
-		', $_COOKIE["fontType"], $_COOKIE["bgColor"], $_COOKIE["fontColor"]);
+		', $_COOKIE["ft"], $_COOKIE["bgc"], $_COOKIE["fc"]);
 		echo $styleBlock;
-		echo $_COOKIE["bgColor"];
+		echo $_COOKIE["bgc"];
 		}
   		?> 
 

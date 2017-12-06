@@ -1,3 +1,17 @@
+		<?php 
+
+		$font_type = 'fontType';
+		$bg_color = 'bgColor';
+		$font_color = 'fontColor';
+
+		if(isset($_POST[$font_type])){
+		setcookie($font_type, $_POST[$font_type], time() + (86400 * 30), "/cookies");
+		setcookie($bg_color, $_POST[$bg_color], time() + (86400 * 30), "/cookies");
+		setcookie($font_color, $_POST[$font_color], time() + (86400 * 30), "/cookies");
+		}
+
+		?>
+
 <!DOCTYPE html>
 <head>
 	<title>Daewoo Matiz</title>
@@ -27,7 +41,7 @@
 
 <hr class="sectionDivider"/>
 
-		<form id="stylesDiv" method="post">
+		<form id="stylesDiv" method="post" action="ciastka.php">
 
 			<select id="fontType" name="fontType">
 				<option>Bebas</option>
@@ -48,36 +62,6 @@
 
 
 		</form>
-
-		<?php 
-
-		$font_type = 'fontType';
-		$bg_color = 'bgColor';
-		$font_color = 'fontColor';
-
-		if(isset($_POST[$font_type])){
-		setcookie($font_type, $_POST[$font_type], time() + (86400 * 30), "/cookies");
-		setcookie($bg_color, $_POST[$bg_color], time() + (86400 * 30), "/cookies");
-		setcookie($font_color, $_POST[$font_color], time() + (86400 * 30), "/cookies");
-		}
-
-		?>
-
-		<?php
-		if(isset($_COOKIE[$font_type])) {
-    		echo "Cookie named '" . $_COOKIE[$font_type] . "' is set!";
-		}
-
-		if(isset($_COOKIE[$bg_color])) {
-    		echo "Cookie named '" . $_COOKIE[$bg_color] . "' is  set!";
-		}
-
-		if(isset($_COOKIE[$font_color])) {
-    		echo "Cookie named '" . $_COOKIE[$font_color] . "' is set!";
-		}
-
-
-		?>
 
 
 	<section class="mainSection">

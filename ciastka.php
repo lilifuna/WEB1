@@ -45,28 +45,28 @@
 <p>Typ czcionki: 
 <?php 
 	$ft=$_POST["fontType"];
-	setcookie("fontType",$ft);
+	setcookie("fontType",$ft, time() + 10, "/");
 	echo $ft;
 ?>
 </p>
 <p>Tło: 
 <?php 
 	$bgc=$_POST["bgColor"];
-	setcookie("bgColor",$bgc);
+	setcookie("bgColor",$bgc, time() + 10, "/");
 	echo $bgc;
 ?>
 </p>
 <p>Kolor czcionki: 
 <?php 
 	$fc=$_POST["fontColor"];
-	setcookie("fontColor",$fc);
+	setcookie("fontColor",$fc, time() + 10, "/");
 	echo $fc;
 ?>
 </p>
 </p>
 
 
-		<a href="index.php">POWRÓT</a>
+		<a href="<?= $_SERVER['HTTP_REFERER'];?>">POWRÓT</a>
 
 
 	

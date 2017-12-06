@@ -1,17 +1,3 @@
-		<?php 
-
-		$font_type = 'fontType';
-		$bg_color = 'bgColor';
-		$font_color = 'fontColor';
-
-		if(isset($_POST[$font_type])){
-		setcookie($font_type, $_POST[$font_type], time() + (86400 * 30), "/cookies");
-		setcookie($bg_color, $_POST[$bg_color], time() + (86400 * 30), "/cookies");
-		setcookie($font_color, $_POST[$font_color], time() + (86400 * 30), "/cookies");
-		}
-
-		?>
-
 <!DOCTYPE html>
 <head>
 	<title>Daewoo Matiz</title>
@@ -62,6 +48,23 @@
 
 
 		</form>
+
+		<?php
+		if(isset($_COOKIE["fontType"]) || isset($_COOKIE["bgColor"]) || isset($_COOKIE["fontColor"]))
+		{	
+		$styleBlock = sprintf('
+			<style type="text/css">
+				body {
+				font-family:%s;
+				background-color:%s;
+				color:%s;
+				}
+			</style>
+		', $_COOKIE["fontType"], $_COOKIE["bgColor"], $_COOKIE["fontColor"]);
+		echo $styleBlock;
+		echo $_COOKIE["bgColor"];
+		}
+  		?> 
 
 
 	<section class="mainSection">

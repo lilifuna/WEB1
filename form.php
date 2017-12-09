@@ -79,6 +79,19 @@
 		<input type="submit" name="submit" value="Zaloguj">
 	</form>
 
+	
+
+
+	<h1>Nie masz konta? Zarejestruj się.</h1>
+
+	<form name="registerForm" action="" method="post">
+		Login: <input type="text" id="login" name="login" placeholder="login"><br>
+		Hasło: <input type="password" id="password" name="password" placeholder="hasło"><br>
+		Twój matiz: <input type="text" id="matiz" name="matiz" placeholder="life"></br>
+
+	<input type="submit" name="register" value="Zarejestruj się">
+	</form>
+
 
 	
 

@@ -1,6 +1,12 @@
 <?php
 		session_start();
-		
+
+		$db = new mysqli("localhost","root","","matizdb");
+
+		if (mysqli_connect_errno()) {
+    		printf("Wystąpił błąd: ", mysqli_connect_error());
+    		exit;
+		}		
 
 ?>
 
@@ -33,12 +39,26 @@
 <hr class="sectionDivider"/>
 
 	
-	
+	<h2>Użytkownicy i ich Matizy</h2>
 	
 	<?php
-		if(isset($_COOKIE["session_cookie"])){
-			echo "<h2> Udało ci się zalogować</h2>";
-			echo "Twój login i hasło to: " . $_COOKIE["session"];
+			
+			$sql = $db->query("SELECT * FROM users");
+			$liczba_rekordow = $sql->num_rows; // odpowiednik mysqli_num_rows
+				echo '<p>Liczba rekordów tabeli: '.$liczba_rekordow.'</p>';
+
+			if ($liczba_rekordow > 0) {
+				for ($i=0;$i<=$liczba_rekordow;$i++) {
+					$wynik = $sql->fetch_assoc(); 
+							// fetch_assoc - zwraca tablicę asocjacyjną pobranych wierszy, lub FALSE jeżeli nie ma więcej wyników
+							// no i w "pętli" (for) wyświetlamy kolejne wyniki
+						echo $wynik["login"]." ".$wynik["matiz"]."<br />";
+				}
+			}
+
+				$sql->free(); // zwalniamy pamięć
+				$db->close(); // zamykamy połączenie z bazą	
+		
 		}
 	?>
 
